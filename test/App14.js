@@ -12,29 +12,29 @@ export default class ButtonBasics extends Component {
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
           <Button
-            onPress={this._onPressButton}
+            onePress={this._onPressButton}
             title='Press me'
           />
         </View>
         <View style={styles.buttonContainer}>
           <Button
-            onPress={this._onPressButton}
+            onePress={this._onPressButton}
             title='Press me'
             color="#841584"
           />
         </View>
 
         <View style={styles.alternativeLayoutButtonContainer}>
-          <Button
-            onPress={this._onPressButton}
-            title="This looks great!"
-          />
-          <Button
-            onPress={this._onPressButton}
-            title="OK!"
-            color="#841584"
-          />
-        </View>
+  <Button
+    onPress={this._onPressButton}
+    title="This looks great!"
+  />
+  <Button
+    onPress={this._onPressButton}
+    title="OK!"
+    color="#841584"
+  />
+</View>
 
       </View>
       );
